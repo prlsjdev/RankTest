@@ -1,0 +1,52 @@
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.bg-intro {
+    background: transparent url("../img/bg-corona.png") 0% 0% no-repeat;
+    height: 898px;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: hard-light;
+}
+
+.bg-principal {
+    background: #DDE5F4;
+}
+
+.bg-consulte {
+    max-width: 100%;
+    width: 1440px;
+    height: 615px;
+    background: transparent linear-gradient(247deg, #66C4D5 0%, #6888E7 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.bg-aside {
+    width: 584px;
+    height: 1290px;
+    background: transparent linear-gradient(204deg, #9C6756 0%, #687DE7 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.extra {
+    width: 368px;
+    height: 167px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px 20px 0px 0px;
+    opacity: 1;
+}
+
+.saude-master {
+    width: 332px;
+    height: 199px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #00000029;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+p {
+    font-size: 16px;
+}
