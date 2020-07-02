@@ -1,11 +1,33 @@
+/* Estilos gerais */
+
 img {
     display: block;
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+
+/* Introdução - backgrounds*/
+
+.bg-intro-1 {
+    /* height: 898px; */
+    height: 100vh;
+    background: transparent linear-gradient(245deg, #68C1E7 0%, #687DE7 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
 .bg-intro {
     background: transparent url("../img/bg-corona.png") 0% 0% no-repeat;
-    height: 898px;
+    /* height: 898px; */
+    height: 100vh;
     background-position: center;
     background-size: cover;
     mix-blend-mode: hard-light;
@@ -30,6 +52,34 @@ img {
     opacity: 1;
 }
 
+
+/* Introdução - Box */
+
+.box-header {
+    max-width: 368px;
+    height: 125px;
+    border-radius: 10px 10px 0px 0px;
+    background: #36479C;
+    opacity: 1;
+}
+
+.box {
+    max-width: 368px;
+    height: 468px;
+    background: #36479C 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #00000029;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.7;
+}
+
+.title-box {
+    font-family: 'Ruda', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: -0.9px;
+    color: #fff;
+}
+
 .extra {
     width: 368px;
     height: 167px;
@@ -45,8 +95,4 @@ img {
     box-shadow: 0px 10px 20px #00000029;
     border-radius: 20px;
     opacity: 1;
-}
-
-p {
-    font-size: 16px;
 }
