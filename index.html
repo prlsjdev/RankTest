@@ -8,137 +8,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="description" content="">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="SaudeJá - Covid" />
+    <meta property="og:title" content="Policlínica SaudeJá - Covid" />
     <meta property="og:description" content="Teste Coronavírus" />
-    <meta property="og:url" content="http://saudeja.com" />
+    <meta property="og:url" content="http://policlinicasaudeja.com" />
 
-    <title>SaudeJá - Covid</title>
+    <title>Policlínica SaudeJá - Covid</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<!-- 
-    Tentei estruturar o site basicamente no modelo container => row => col que é 
-    o modelo recomendado pelo proprio site do bootstrap, usei algumas tags com valor semantico mas provavelmente muita coisa vai mudar.
- -->
+
 
 <body>
-    <header class="bg-intro">
-        <!-- a classe container vai entrar aqui   -->
+    <!-- Header em desenvolvimento -->
+    <header></header>
+    <div class="bg-intro">
         <div class="container">
             <div class="row">
-                <!-- aqui eu vou ter uma row    -->
                 <div class="col-6">
-                    <!-- e aqui eu vou ter col-6 -->
                     <h1>Teste Coronavírus</h1>
-                    <p>Agendamento online de exame Coronavírus</p>
+                    <h2>Agendamento online de exame Coronavírus</h2>
                 </div>
 
                 <div class="col-6">
-                    <!-- e aqui eu vou ter outro col-6 para ficar lado a lado   -->
                     <p>Agende pelo telefone ou whatsapp: <span>seg à sex - 09 às 18h</span><span> sab - 09 às 13h</span></p>
-                    <!-- aqui eu coloquei como span dentro do p só pra já ficar na mesma linha  -->
                     <a href="tel:+552130905000">(21) 3090-5000</a>
                     <a href="https://api.whatsapp.com/send?phone=21999999999">Agendar pelo whatsapp</a>
                 </div>
             </div>
 
-            <!-- Aqui segue o mesmo esquema de cima container => row => col   -->
+
             <div class="row">
-                <section class="col-4">
+                <div class="col-4">
                     <div>
-                        <!-- Aqui eu separei mais uma div para separar o top do content  -->
-                        <h4>Teste Rápido IgG IgM</h4>
+                        <p>Teste Rápido IgG IgM</p>
                         <p>R$ 199</p>
                         <p>6x de 36,50</p>
                     </div>
                     <div>
-                        <p><b>quem deve fazer?</b></p>
-                        <p>Quem quer saber se já teve ou está imune. Quem apresenta sintomas há 10 dias. Quem teve contato com pessoas contamidas. Quem têm contato físico com grupos de risco.</p>
-                        <p><b>quando deve ser feito</b></p>
-                        <p>Se estiver com sintomas, aguardar o 10 dia. Se estiver sem sintomas, recomendável fazer em caso de necessidade, como trabalho ou viagens.</p>
-                        <p><b>prazo do resultado</b></p>
-                        <p>15 minutos para resultado. 1 dia útil para laudo.</p>
-                        <p><b>o que o resultado vai me dizer</b></p>
-                        <p>Se você está atualmente com infecção ativa e potencialmente transmitindo o vírus. Se você está potencialmente imune.</p>
-                    </div>
-                </section>
+                        <ul>
+                            <li>
+                                <p><b>quem deve fazer?</b></p>
+                                <p>Quem quer saber se já teve ou está imune. Quem apresenta sintomas há 10 dias. Quem teve contato com pessoas contamidas. Quem têm contato físico com grupos de risco.</p>
+                            </li>
 
-                <!-- col 2 -->
-                <section class="col-4">
+                            <li>
+                                <p><b>quando deve ser feito</b></p>
+                                <p>Se estiver com sintomas, aguardar o 10 dia. Se estiver sem sintomas, recomendável fazer em caso de necessidade, como trabalho ou viagens.</p>
+                            </li>
+
+                            <li>
+                                <p><b>prazo do resultado</b></p>
+                                <p>15 minutos para resultado. 1 dia útil para laudo.</p>
+                            </li>
+
+                            <li>
+                                <p><b>o que o resultado vai me dizer</b></p>
+                                <p>Se você está atualmente com infecção ativa e potencialmente transmitindo o vírus. Se você está potencialmente imune.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <button>agendar exame</button>
+                </div>
+
+
+                <div class="col-4">
                     <div>
-                        <!-- Aqui eu separei mais uma div para separar o top do content  -->
-                        <h4>Exame RT-PCR</h4>
+                        <p>Exame RT-PCR</p>
                         <p>R$ 260</p>
                         <p>6x de 48,15</p>
                     </div>
                     <div>
-                        <p><b>quem deve fazer?</b></p>
-                        <p>Quem apresenta sintomas semelhantes ao da gripe por mais de 24 horas.</p>
-                        <p><b>quando deve ser feito</b></p>
-                        <p>A partir das primeiras 24 horas do surgimento dos sintomas, sendo o período ideal entre o 3° e 10° dia de sintomas.</p>
-                        <p><b>prazo do resultado</b></p>
-                        <p>Resultado e Laudo em até 5 dias úteis.</p>
-                        <p><b>o que o resultado vai me dizer</b></p>
-                        <p>Se você está atualmente com o vírus em seu organismo.</p>
+                        <ul>
+                            <li>
+                                <p><b>quem deve fazer?</b></p>
+                                <p>Quem apresenta sintomas semelhantes ao da gripe por mais de 24 horas.</p>
+                            </li>
+                            <li>
+                                <p><b>quando deve ser feito</b></p>
+                                <p>A partir das primeiras 24 horas do surgimento dos sintomas, sendo o período ideal entre o 3° e 10° dia de sintomas.</p>
+                            </li>
+                            <li>
+                                <p><b>prazo do resultado</b></p>
+                                <p>Resultado e Laudo em até 5 dias úteis.</p>
+                            </li>
+                            <li>
+                                <p><b>o que o resultado vai me dizer</b></p>
+                                <p>Se você está atualmente com o vírus em seu organismo.</p>
+                            </li>
+                        </ul>
                     </div>
-                </section>
+                    <button>agendar exame</button>
+                </div>
 
                 <!-- col 3 -->
-                <section class="col-4">
+                <div class="col-4">
                     <div>
                         <!-- Aqui eu separei mais uma div para separar o top do content  -->
-                        <h4>Anticorpos Totais IgA IgG IgM</h4>
+                        <p>Anticorpos Totais IgA IgG IgM</p>
                         <p>R$ 494</p>
                         <p>6x de 91,50</p>
                     </div>
                     <div>
-                        <p><b>quem deve fazer?</b></p>
-                        <p>Quem está recebendo acompanhamento médico especializado. Quem quer saber se já teve ou está imune. Quem apresenta sintomas há 10 dias.</p>
-                        <p><b>quando deve ser feito</b></p>
-                        <p>A partir do 7° dia consectivo de sintomas</p>
-                        <p><b>prazo do resultado</b></p>
-                        <p>Resultado em até 3 dias úteis</p>
-                        <p><b>o que o resultado vai me dizer</b></p>
-                        <p>Se você está atualmente com infecção ativa e potencialmente transmitindo o vírus. Se você está potencialmente imune.</p>
+                        <ul>
+                            <li>
+                                <p><b>quem deve fazer?</b></p>
+                                <p>Quem está recebendo acompanhamento médico especializado. Quem quer saber se já teve ou está imune. Quem apresenta sintomas há 10 dias.</p>
+                            </li>
+                            <li>
+                                <p><b>quando deve ser feito</b></p>
+                                <p>A partir do 7° dia consectivo de sintomas</p>
+                            </li>
+                            <li>
+                                <p><b>prazo do resultado</b></p>
+                                <p>Resultado em até 3 dias úteis</p>
+                            </li>
+                            <li>
+                                <p><b>o que o resultado vai me dizer</b></p>
+                                <p>Se você está atualmente com infecção ativa e potencialmente transmitindo o vírus. Se você está potencialmente imune.</p>
+                            </li>
+                        </ul>
                     </div>
-                </section>
+                    <button>agendar exame</button>
+                </div>
             </div>
         </div>
-    </header>
+    </div>
     <!-- Utilizei o main para envolver todo o conteudo do site(exceto header) e usar o background de ponta a ponta parando no footer -->
     <main class="bg-principal">
-        <section>
+        <div>
             <div>
-                <section>
+                <div>
                     <p>#fiqueemcasa</p>
                     <h2>Também fazemos coleta domiciliar e no trabalho</h2>
                     <p>Nossa equipe vai até o seu endereço e realiza a coleta de forma segura, rápida e acessível</p>
-                </section>
+                </div>
 
-                <section>
+                <div>
 
                     <div></div>
                     <h3>Agende online</h3>
                     <p>Faça o agendamento do exame pelo site ou whatsapp</p>
-                </section>
-                <section>
+                </div>
+                <div>
 
                     <div></div>
                     <h3>Aguarde a visita</h3>
                     <p>No dia e horário combinados nossos profissionais farão a coleta atendendo a todos os padrões de segurança</p>
-                </section>
+                </div>
 
-                <section>
+                <div>
 
                     <div></div>
                     <h3>Receba o resultado</h3>
                     <p>Pronto! O resultado fica disponível em nosso sistema e você pode acessá-lo de qualquer lugar</p>
-                </section>
+                </div>
             </div>
-        </section>
+        </div>
 
-        <section>
+        <div>
             <div class="bg-consulte">
                 <div class="row">
                     <div class="col-6">
@@ -150,271 +178,285 @@
                         <img src="img/recorte-medica.png" alt="">
                     </div>
                 </div>
-        </section>
-
-        <article>
-            <h2>Saiba tudo sobre o <span>Coronavírus</span></h2>
-            <section>
-                <h3>O que é?</h3>
-                <p>Os Coronavírus pertencem a uma família de vírus causadores de infecções respiratórias. Isolados pela primeira vez em 1937, no entanto, somente em 1965 foram descritos como coronavírus, em decorrência da aparência de coroa à microscopia.
-                    Outros betacoronavírus já causaram surtos como a Síndrome Respiratória Aguda Grave (SARS), e a Síndrome Respiratória do Oriente Médio (MERS). No final de 2019, um novo coronavírus foi identificado como a causa de um conjunto de casos
-                    de pneumonia em Wuhan, uma cidade na província de Hubei, na China. O vírus causador do COVID-19 é designado Coronavírus da Síndrome Respiratória Aguda Grave 2 (SARS-CoV-2); anteriormente, foi referido como 2019-nCoV. A COVID-19 é o
-                    nome da doença causada pelo novo coronavírus SARS-CoV-2, que apresenta um quadro clínico que varia de infecções assintomáticas a quadros respiratórios graves. De acordo com a Organização Mundial de Saúde (OMS), a maioria dos pacientes
-                    com COVID-19 (cerca de 80%) podem ser assintomáticos e cerca de 20% dos casos podem requerer atendimento hospitalar por apresentarem dificuldade respiratória e, desses casos, aproximadamente 5% podem necessitar de auxílio para o tratamento
-                    de insuficiência respiratória, como suporte ventilatório, os chamados respiradores.</p>
-                <br>
-                <h3>Teste Rápido Coronavírus</h3>
-                <p>O teste rápido de anticorpos para o novo coronavírus (Sars-CoV-2) pode ser usado como apoio para a avaliação do estado imunológico de pacientes que apresentem sintomas da Covid-19. Basicamente, esse tipo de exame aponta se a pessoa teve
-                    ou não contato com o vírus. Quando uma pessoa entra em contato com o vírus, o organismo inicia a produção de anticorpos como um mecanismo de defesa. No entanto, é preciso aguardar alguns dias até que a quantidade desses anticorpos
-                    seja detectável em um teste (janela imunológica). Estudos científicos têm demonstrado que, a partir do sétimo dia de sintomas de uma pessoa com Covid-19, é possível detectar anticorpos em testes rápidos, sendo que em grande parte dos
-                    produtos registrados na Anvisa os resultados mais robustos foram obtidos a partir do décimo dia. Portanto, é preciso estar atento às instruções de uso dos testes.</p>
-
-                <h3>metodologia</h3>
-                <p>O exame é feito com o uso de amostras de sangue, soro ou plasma. A metodologia utilizada é chamada de imunocromatografia, que é a geração de cor a partir de uma reação química entre antígeno (substância estranha ao organismo) e anticorpo
-                    (elemento de defesa do organismo). Os resultados obtidos são chamados de IgM e IgG. Portanto, o IgM e o IgG são as defesas do organismo a um agente externo, como o vírus que provoca a Covid-19. Tendo em vista que o organismo demanda
-                    um tempo para a produção desses anticorpos (janela imunológica) a partir do contágio, a imunocromatografia é indicada para exames a partir do sétimo dia após o início dos sintomas, a depender da limitação do teste e da indicação do
-                    fabricante. Esse tempo é necessário para assegurar que haverá anticorpos suficientes no organismo que possam ser detectáveis por esse método. Além disso, para concluir se o caso é ou não de Covid-19, os resultados dos testes rápidos
-                    devem ser interpretados por um profissional de saúde, considerando informações clínicas, sinais e sintomas do paciente, além de outros exames confirmatórios. Somente com esse conjunto de dados é possível fazer a avaliação e o diagnóstico
-                    ou descarte da doença.</p>
-
-                <h3>quais os benefícios dos testes oferecidos?</h3>
-                <p>A Sorologia Rápida IGG IGM e os Anticorpos Totais IGA IGG IGM permitem saber quem já teve contato com o vírus, e também indica os indivíduos que já estão potencialmente imunes ao mesmo. O RT-PCR por sua vez, que é indicado para os primeiros
-                    dias de sintomas, permite identificar a presença do vírus no organismo do infectado, ganhando um tempo precioso para o início do período de isolamento e para pôr em práticas as orientações médicas.</p>
-                <h3>Como me prevenir do Coronavírus?</h3>
-                <h3>em casa</h3>
-                <p>- Lave com frequência as mãos até a altura dos punhos, com água e sabão, ou então higienize com álcool em gel 70%; - Ao tossir ou espirrar, cubra nariz e boca com lenço ou com o braço, e não com as mãos; - Evite tocar olhos, nariz e boca
-                    com as mãos não lavadas; - Ao tocar, lave sempre as mãos como já indicado; - Higienize com frequência o celular e os brinquedos das crianças; - Não compartilhe objetos de uso pessoal, como talheres, toalhas, pratos e copos; - Mantenha
-                    os ambientes limpos e bem ventilados; - Se estiver doente, evite contato físico com outras pessoas, principalmente idosos e doentes crônicos, e fique em casa até melhorar;</p>
-                <h3>ao receber produtos em casa</h3>
-                <p>- Mantenha a distância mínima de um metro do entregador; - Receba seus pedidos com as mãos higienizadas; - Descarte a embalagem; - Higienize o produto; - Higienize as mãos com água e sabão para finalizar; - Utilize máscaras caseiras ou
-                    artesanais feitas de tecido em situações de saída de sua residência.</p>
-                <h3>ao comprar proutos no supermercado</h3>
-                <p>- Ao chegar das compras é preciso lavar bem as mãos, tirar as roupas e sapatos usados para ida ao supermercado; - Com um pano com álcool em gel 70% limpe alimentos embalados industrializados; - Produtos em recipientes bem vedados podem
-                    ser lavados com água e sabão; - Hortaliças, frutas, verduras e legumes devem ser colocados imersos em uma solução com água sanitária (uma colher de sopa para um litro de água, respeitando a proporção de 1 por 1, se for preciso uma
-                    quantidade maior), durante 15 minutos, e após esse tempo lavar novamente em água corrente e deixar secar naturalmente; - Carnes, peixes e frango: deve-se descartar as embalagens no lixo. Lavar a mão com água e sabão e colocar o produto
-                    em outro recipiente no qual possa ser guardado no freezer ou geladeira.</p>
-                <h3>nas ruas</h3>
-                <p>- O recomendado é restringir a saída de casa às situações necessárias, de acordo com a fase da epidemia. - Use máscara; - Mantenha uma distância mínima de cerca de 2 metros de qualquer pessoa; - Evite abraços, beijos e apertos de mãos;
-                    - Adote as medidas de higienização das mãos com álcool gel a 70%; - Não levar as mãos ao rosto; - Adote a etiqueta respiratória (ao tossir ou espirrar cobrir boca e nariz com o braço na dobra do cotovelo).</p>
-            </section>
-        </article>
-
-
-        <section class="bg-principal">
-            <div class="row">
-                <section class="col-6">
-                    <h2>Entenda melhor os sintomas do <span>Coronavirus</span></h2>
-                    <h3>principais sintomas</h3>
-                    <p>O Coronavírus possui sintomas muito semelhantes ao da gripe, por isso é fundamental ficar atento para o surgimento dos seguintes sintomas</p>
-
-                    <div>
-                        <img src="img/meh.svg" alt="">
-                        <span>Sintomas Leves</span>
-                        <p>Tosse, dor de cabeça, coriza, dor de garganta e cansaço</p>
-                    </div>
-                    <div>
-                        <img src="img/frown.svg" alt=""><span>Sintomas Leves</span>
-                        <p>Tosse, dor de cabeça, coriza, dor de garganta e cansaço</p>
-                    </div>
-                    <div>
-                        <img src="img/tired.svg" alt=""><span>Sintomas Leves</span>
-                        <p>Tosse, dor de cabeça, coriza, dor de garganta e cansaço</p>
-                    </div>
-                </section>
-
-                <aside class="bg-aside">
-                    <div class="" id="accordionExample">
-                        <div class="">
-                            <div class="" id="headingOne">
-                                <h2 class="mb-0">
-                                    <a class="text-right" type="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                           Como o distanciamento social colabora com o combate ao Coronavírus +
-                                </a>
-                                </h2>
-                            </div>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="" id="accordionExample">
-                        <div class="">
-                            <div class="" id="heading2">
-                                <h2 class="mb-0">
-                                    <a class="text-right" type="" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                           Como o distanciamento social colabora com o combate ao Coronavírus +
-                                </a>
-                                </h2>
-                            </div>
-
-                            <div id="collapse2" class="collapse show" aria-labelledby="heading2" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="" id="accordionExample">
-                        <div class="">
-                            <div class="" id="heading3">
-                                <h2 class="mb-0">
-                                    <a class="text-right" type="" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                           Como o distanciamento social colabora com o combate ao Coronavírus +
-                                </a>
-                                </h2>
-                            </div>
-
-                            <div id="collapse3" class="collapse show" aria-labelledby="heading3" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="" id="accordionExample">
-                        <div class="">
-                            <div class="" id="heading4">
-                                <h2 class="mb-0">
-                                    <a class="text-right" type="" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                           Como o distanciamento social colabora com o combate ao Coronavírus +
-                                </a>
-                                </h2>
-                            </div>
-
-                            <div id="collapse4" class="collapse show" aria-labelledby="heading4" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="" id="accordionExample">
-                        <div class="">
-                            <div class="" id="heading5">
-                                <h2 class="mb-0">
-                                    <a class="text-right" type="" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
-                           Como o distanciamento social colabora com o combate ao Coronavírus +
-                                </a>
-                                </h2>
-                            </div>
-
-                            <div id="collapse5" class="collapse show" aria-labelledby="heading5" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="" id="accordionExample">
-                        <div class="">
-                            <div class="" id="heading6">
-                                <h2 class="mb-0">
-                                    <a class="text-right" type="" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
-                           Como o distanciamento social colabora com o combate ao Coronavírus +
-                                </a>
-                                </h2>
-                            </div>
-
-                            <div id="collapse6" class="collapse show" aria-labelledby="heading6" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="" id="accordionExample">
-                        <div class="">
-                            <div class="" id="heading7">
-                                <h2 class="mb-0">
-                                    <a class="text-right" type="" data-toggle="collapse" data-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
-                           Como o distanciamento social colabora com o combate ao Coronavírus +
-                                </a>
-                                </h2>
-                            </div>
-
-                            <div id="collapse7" class="collapse show" aria-labelledby="heading7" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="" id="accordionExample">
-                        <div class="">
-                            <div class="" id="heading8">
-                                <h2 class="mb-0">
-                                    <a class="text-right" type="" data-toggle="collapse" data-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
-                           Como o distanciamento social colabora com o combate ao Coronavírus +
-                                </a>
-                                </h2>
-                            </div>
-
-                            <div id="collapse8" class="collapse show" aria-labelledby="heading8" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </aside>
             </div>
-        </section>
+
+            <div>
+                <h2>Saiba tudo sobre o <span>Coronavírus</span></h2>
+                <div>
+                    <ul>
+                        <li>
+                            <h3>O que é?</h3>
+                            <p>Os Coronavírus pertencem a uma família de vírus causadores de infecções respiratórias. Isolados pela primeira vez em 1937, no entanto, somente em 1965 foram descritos como coronavírus, em decorrência da aparência de coroa à
+                                microscopia. Outros betacoronavírus já causaram surtos como a Síndrome Respiratória Aguda Grave (SARS), e a Síndrome Respiratória do Oriente Médio (MERS). No final de 2019, um novo coronavírus foi identificado como a causa
+                                de um conjunto de casos de pneumonia em Wuhan, uma cidade na província de Hubei, na China. O vírus causador do COVID-19 é designado Coronavírus da Síndrome Respiratória Aguda Grave 2 (SARS-CoV-2); anteriormente, foi referido
+                                como 2019-nCoV. A COVID-19 é o nome da doença causada pelo novo coronavírus SARS-CoV-2, que apresenta um quadro clínico que varia de infecções assintomáticas a quadros respiratórios graves. De acordo com a Organização Mundial
+                                de Saúde (OMS), a maioria dos pacientes com COVID-19 (cerca de 80%) podem ser assintomáticos e cerca de 20% dos casos podem requerer atendimento hospitalar por apresentarem dificuldade respiratória e, desses casos, aproximadamente
+                                5% podem necessitar de auxílio para o tratamento de insuficiência respiratória, como suporte ventilatório, os chamados respiradores.</p>
+                        </li>
+                        <li>
+                            <h3>Teste Rápido Coronavírus</h3>
+                            <p>O teste rápido de anticorpos para o novo coronavírus (Sars-CoV-2) pode ser usado como apoio para a avaliação do estado imunológico de pacientes que apresentem sintomas da Covid-19. Basicamente, esse tipo de exame aponta se
+                                a pessoa teve ou não contato com o vírus. Quando uma pessoa entra em contato com o vírus, o organismo inicia a produção de anticorpos como um mecanismo de defesa. No entanto, é preciso aguardar alguns dias até que a quantidade
+                                desses anticorpos seja detectável em um teste (janela imunológica). Estudos científicos têm demonstrado que, a partir do sétimo dia de sintomas de uma pessoa com Covid-19, é possível detectar anticorpos em testes rápidos,
+                                sendo que em grande parte dos produtos registrados na Anvisa os resultados mais robustos foram obtidos a partir do décimo dia. Portanto, é preciso estar atento às instruções de uso dos testes.</p>
+                        </li>
+                        <li>
+                            <h3>metodologia</h3>
+                            <p>O exame é feito com o uso de amostras de sangue, soro ou plasma. A metodologia utilizada é chamada de imunocromatografia, que é a geração de cor a partir de uma reação química entre antígeno (substância estranha ao organismo)
+                                e anticorpo (elemento de defesa do organismo). Os resultados obtidos são chamados de IgM e IgG. Portanto, o IgM e o IgG são as defesas do organismo a um agente externo, como o vírus que provoca a Covid-19. Tendo em vista
+                                que o organismo demanda um tempo para a produção desses anticorpos (janela imunológica) a partir do contágio, a imunocromatografia é indicada para exames a partir do sétimo dia após o início dos sintomas, a depender da
+                                limitação do teste e da indicação do fabricante. Esse tempo é necessário para assegurar que haverá anticorpos suficientes no organismo que possam ser detectáveis por esse método. Além disso, para concluir se o caso é ou
+                                não de Covid-19, os resultados dos testes rápidos devem ser interpretados por um profissional de saúde, considerando informações clínicas, sinais e sintomas do paciente, além de outros exames confirmatórios. Somente com
+                                esse conjunto de dados é possível fazer a avaliação e o diagnóstico ou descarte da doença.</p>
+                        </li>
+                        <li>
+                            <h3>quais os benefícios dos testes oferecidos?</h3>
+                            <p>A Sorologia Rápida IGG IGM e os Anticorpos Totais IGA IGG IGM permitem saber quem já teve contato com o vírus, e também indica os indivíduos que já estão potencialmente imunes ao mesmo. O RT-PCR por sua vez, que é indicado
+                                para os primeiros dias de sintomas, permite identificar a presença do vírus no organismo do infectado, ganhando um tempo precioso para o início do período de isolamento e para pôr em práticas as orientações médicas.</p>
+                        </li>
+                        <li>
+                            <h3>Como me prevenir do Coronavírus?</h3>
+                            <h3>em casa</h3>
+                            <p>- Lave com frequência as mãos até a altura dos punhos, com água e sabão, ou então higienize com álcool em gel 70%; - Ao tossir ou espirrar, cubra nariz e boca com lenço ou com o braço, e não com as mãos; - Evite tocar olhos,
+                                nariz e boca com as mãos não lavadas; - Ao tocar, lave sempre as mãos como já indicado; - Higienize com frequência o celular e os brinquedos das crianças; - Não compartilhe objetos de uso pessoal, como talheres, toalhas,
+                                pratos e copos; - Mantenha os ambientes limpos e bem ventilados; - Se estiver doente, evite contato físico com outras pessoas, principalmente idosos e doentes crônicos, e fique em casa até melhorar;</p>
+                        </li>
+                        <li>
+                            <h3>ao receber produtos em casa</h3>
+                            <p>- Mantenha a distância mínima de um metro do entregador; - Receba seus pedidos com as mãos higienizadas; - Descarte a embalagem; - Higienize o produto; - Higienize as mãos com água e sabão para finalizar; - Utilize máscaras
+                                caseiras ou artesanais feitas de tecido em situações de saída de sua residência.</p>
+                        </li>
+                        <li>
+                            <h3>ao comprar proutos no supermercado</h3>
+                            <p>- Ao chegar das compras é preciso lavar bem as mãos, tirar as roupas e sapatos usados para ida ao supermercado; - Com um pano com álcool em gel 70% limpe alimentos embalados industrializados; - Produtos em recipientes bem vedados
+                                podem ser lavados com água e sabão; - Hortaliças, frutas, verduras e legumes devem ser colocados imersos em uma solução com água sanitária (uma colher de sopa para um litro de água, respeitando a proporção de 1 por 1, se
+                                for preciso uma quantidade maior), durante 15 minutos, e após esse tempo lavar novamente em água corrente e deixar secar naturalmente; - Carnes, peixes e frango: deve-se descartar as embalagens no lixo. Lavar a mão com
+                                água e sabão e colocar o produto em outro recipiente no qual possa ser guardado no freezer ou geladeira.</p>
+                        </li>
+
+                        <li>
+                            <h3>nas ruas</h3>
+                            <p>- O recomendado é restringir a saída de casa às situações necessárias, de acordo com a fase da epidemia. - Use máscara; - Mantenha uma distância mínima de cerca de 2 metros de qualquer pessoa; - Evite abraços, beijos e apertos
+                                de mãos; - Adote as medidas de higienização das mãos com álcool gel a 70%; - Não levar as mãos ao rosto; - Adote a etiqueta respiratória (ao tossir ou espirrar cobrir boca e nariz com o braço na dobra do cotovelo).</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="bg-principal">
+                <div class="row">
+                    <div class="col-6">
+                        <h2>Entenda melhor os sintomas do <span>Coronavirus</span></h2>
+                        <h3>principais sintomas</h3>
+                        <p>O Coronavírus possui sintomas muito semelhantes ao da gripe, por isso é fundamental ficar atento para o surgimento dos seguintes sintomas</p>
+
+                        <div>
+                            <img src="img/meh.svg" alt="">
+                            <span>Sintomas Leves</span>
+                            <p>Tosse, dor de cabeça, coriza, dor de garganta e cansaço</p>
+                        </div>
+                        <div>
+                            <img src="img/frown.svg" alt=""><span>Sintomas Leves</span>
+                            <p>Tosse, dor de cabeça, coriza, dor de garganta e cansaço</p>
+                        </div>
+                        <div>
+                            <img src="img/tired.svg" alt=""><span>Sintomas Leves</span>
+                            <p>Tosse, dor de cabeça, coriza, dor de garganta e cansaço</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-info">
+                        <div class="" id="accordionExample">
+                            <div class="">
+                                <div class="" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <a class="text-right" type="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           Como o distanciamento social colabora com o combate ao Coronavírus +
+                                </a>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="" id="accordionExample">
+                            <div class="">
+                                <div class="" id="heading2">
+                                    <h2 class="mb-0">
+                                        <a class="text-right" type="" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                           Como o distanciamento social colabora com o combate ao Coronavírus +
+                                </a>
+                                    </h2>
+                                </div>
+
+                                <div id="collapse2" class="collapse show" aria-labelledby="heading2" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="" id="accordionExample">
+                            <div class="">
+                                <div class="" id="heading3">
+                                    <h2 class="mb-0">
+                                        <a class="text-right" type="" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                           Como o distanciamento social colabora com o combate ao Coronavírus +
+                                </a>
+                                    </h2>
+                                </div>
+
+                                <div id="collapse3" class="collapse show" aria-labelledby="heading3" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="" id="accordionExample">
+                            <div class="">
+                                <div class="" id="heading4">
+                                    <h2 class="mb-0">
+                                        <a class="text-right" type="" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                           Como o distanciamento social colabora com o combate ao Coronavírus +
+                                </a>
+                                    </h2>
+                                </div>
+
+                                <div id="collapse4" class="collapse show" aria-labelledby="heading4" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="" id="accordionExample">
+                            <div class="">
+                                <div class="" id="heading5">
+                                    <h2 class="mb-0">
+                                        <a class="text-right" type="" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                           Como o distanciamento social colabora com o combate ao Coronavírus +
+                                </a>
+                                    </h2>
+                                </div>
+
+                                <div id="collapse5" class="collapse show" aria-labelledby="heading5" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="" id="accordionExample">
+                            <div class="">
+                                <div class="" id="heading6">
+                                    <h2 class="mb-0">
+                                        <a class="text-right" type="" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                           Como o distanciamento social colabora com o combate ao Coronavírus +
+                                </a>
+                                    </h2>
+                                </div>
+
+                                <div id="collapse6" class="collapse show" aria-labelledby="heading6" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="" id="accordionExample">
+                            <div class="">
+                                <div class="" id="heading7">
+                                    <h2 class="mb-0">
+                                        <a class="text-right" type="" data-toggle="collapse" data-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                           Como o distanciamento social colabora com o combate ao Coronavírus +
+                                </a>
+                                    </h2>
+                                </div>
+
+                                <div id="collapse7" class="collapse show" aria-labelledby="heading7" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="" id="accordionExample">
+                            <div class="">
+                                <div class="" id="heading8">
+                                    <h2 class="mb-0">
+                                        <a class="text-right" type="" data-toggle="collapse" data-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                           Como o distanciamento social colabora com o combate ao Coronavírus +
+                                </a>
+                                    </h2>
+                                </div>
+
+                                <div id="collapse8" class="collapse show" aria-labelledby="heading8" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
 
 
-        <section>
             <div>
                 <div>
-                    <h2>Veja o que falam da Policlínica Saúde Já</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectur adipiscing elit. Mauris sodales non nulla vel luctus. Quisque sit amet vehicula lectus."</p>
-                    <div class="extra">
-                    </div>
-                    <img src="img/NoPath - Copia.png" class="mt-2" alt="">
-                    <p>Clínicas populares crescem no Rio como opção a planos de saúde e SUS</p>
-                </div>
-
-                <div>
-                    <h2>Conheça o cartão Saúde Master</h2>
-                    <div class="saude-master">
-
+                    <div>
+                        <h2>Veja o que falam da Policlínica Saúde Já</h2>
+                        <p>"Lorem ipsum dolor sit amet, consectur adipiscing elit. Mauris sodales non nulla vel luctus. Quisque sit amet vehicula lectus."</p>
+                        <div class="extra">
+                        </div>
+                        <img src="img/NoPath - Copia.png" class="mt-2" alt="">
+                        <p>Clínicas populares crescem no Rio como opção a planos de saúde e SUS</p>
                     </div>
 
-                    <p>O cartão de benefícios ideal para sua família com descontos especiais em consultas e exames da Policínica Saúde Já</p>
+                    <div>
+                        <h2>Conheça o cartão Saúde Master</h2>
+                        <div class="saude-master">
+
+                        </div>
+
+                        <p>O cartão de benefícios ideal para sua família com descontos especiais em consultas e exames da Policínica Saúde Já</p>
+                    </div>
                 </div>
             </div>
-        </section>
 
     </main>
-
-
 
     <footer>
         <div>
@@ -447,23 +489,6 @@
             <img src="img/rankme.JPG" alt="">
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
