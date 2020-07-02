@@ -11,7 +11,7 @@ ul {
 }
 
 .container {
-    max-width: 1440px;
+    /* width: 1440px; */
 }
 
 
@@ -56,7 +56,7 @@ ul {
 /* Introdução - Box */
 
 .box-header {
-    max-width: 368px;
+    /* max-width: 368px; */
     height: 125px;
     border-radius: 10px 10px 0px 0px;
     background: #36479C;
@@ -64,7 +64,7 @@ ul {
 }
 
 .box {
-    max-width: 368px;
+    /* max-width: 368px; */
     height: 468px;
     background: #36479C 0% 0% no-repeat padding-box;
     box-shadow: 0px 10px 20px #00000029;
