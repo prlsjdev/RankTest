@@ -31,7 +31,7 @@ ul {
     background: transparent url("../img/bg-corona.png") 0% 0% no-repeat;
     background-position: center;
     background-size: cover;
-    mix-blend-mode: hard-light;
+    /* mix-blend-mode: hard-light; */
 }
 
 .bg-principal {
@@ -81,7 +81,6 @@ ul {
     font-weight: 700;
     color: #fff;
     padding-bottom: 10px;
-    /* margin-right: 80px; */
 }
 
 .top div span {
@@ -101,6 +100,12 @@ ul {
     border-radius: 20px;
     padding: 10px;
     text-align: center;
+    transition: 1.0s;
+}
+
+.top-btn:hover {
+    background: rgb(236, 236, 236) 0% 0% no-repeat padding-box;
+    text-decoration: none;
 }
 
 div .top-btn span {
@@ -123,41 +128,45 @@ div .top-btn span {
     font-family: 'Roboto Slab', serif;
     font-size: 26px;
     font-weight: 800;
+    transition: 1.0s;
+}
+
+.top-tel:hover {
+    text-decoration: none;
 }
 
 
 /* Introdução - Box */
 
 .box {
-    padding-top: 34px;
-    padding-bottom: 125px;
+    margin-top: 34px;
+    margin-bottom: 125px;
+    position: relative;
 }
 
 .box span {
-    text-align: center;
-    width: 136px;
-    height: 24px;
-    text-align: center;
-    display: inline-block;
-    border-radius: 10px;
+    min-width: 140px;
+    border-radius: 20px;
     background: #68C1E7;
     color: #fff;
+    text-align: center;
     padding: 5px;
     opacity: 1;
     font-family: 'Ruda', sans-serif;
     font-size: 12px;
     font-weight: 800;
     position: absolute;
-    left: 180px;
-    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 0px;
     z-index: 1;
 }
 
 .box-header {
     height: 125px;
     border-radius: 10px 10px 0px 0px;
-    background: #36479C;
-    opacity: 0.8;
+    background: rgba(54, 71, 156, 0.8);
+    transition: background 1.0s;
 }
 
 .box-header h3 {
@@ -187,12 +196,20 @@ div .top-btn span {
 }
 
 .box-content {
-    height: 468px;
-    background: #36479C 0% 0% no-repeat padding-box;
+    height: 480px;
+    background: rgba(54, 71, 156, 0.3) 0% 0% no-repeat padding-box;
     padding: 20px 25px;
     box-shadow: 0px 10px 20px #00000029;
     border-radius: 0px 0px 10px 10px;
-    opacity: 0.7;
+    transition: background 1.0s;
+}
+
+.box:hover .box-content {
+    background: rgba(54, 71, 156, 0.7) 0% 0% no-repeat padding-box;
+}
+
+.box:hover .box-header {
+    background: rgba(54, 71, 156, 1) 0% 0% no-repeat padding-box;
 }
 
 .box-content li p:nth-child(1) {
@@ -206,17 +223,18 @@ div .top-btn span {
     font-family: 'Roboto Slab', serif;
     font-size: 12px;
     padding-bottom: 10px;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
     letter-spacing: 0;
 }
 
 .btn-box {
-    max-width: 268px;
+    max-width: 100%;
     height: 46px;
     background: #DDE5F4 0% 0% no-repeat padding-box;
     color: #36479C;
     border-radius: 20px;
-    padding: 15px 65px;
+    padding: 15px 50px;
+    min-width: 220px;
     opacity: 1;
     font-family: 'Ruda', sans-serif;
     font-size: 14px;
@@ -224,8 +242,48 @@ div .top-btn span {
     font-weight: 800;
     text-transform: uppercase;
     position: absolute;
-    top: 600px;
-    right: 112px;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.btn-box:hover {
+    text-decoration: none;
+}
+
+
+/* Agendamento  */
+
+.agendamento p {
+    font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 50px;
+    color: #68C1E7;
+    text-transform: uppercase;
+}
+
+.agendamento h1 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #315267;
+    text-transform: uppercase;
+}
+
+.agendamento h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #315267;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    background: #fff;
+    border-radius: 200px;
+    margin: 0 auto;
 }
 
 .extra {
