@@ -38,14 +38,6 @@ ul {
     background: #DDE5F4;
 }
 
-.bg-consulte {
-    max-width: 100%;
-    width: 1440px;
-    height: 615px;
-    background: transparent linear-gradient(247deg, #66C4D5 0%, #6888E7 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
 .bg-info {
     width: 584px;
     height: 1290px;
@@ -278,12 +270,261 @@ div .top-btn span {
     color: #315267;
 }
 
-.circle {
+
+/* otimizar esses circles depois. */
+
+.circle-1,
+.circle-2,
+.circle-3 {
     width: 180px;
     height: 180px;
     background: #fff;
     border-radius: 200px;
     margin: 0 auto;
+}
+
+.circle-1::before {
+    content: '1';
+    color: #fff;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding-top: 8px;
+    background: transparent linear-gradient(247deg, #66C4D5 0%, #6888E7 100%) 0% 0% no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 80%;
+}
+
+.circle-2::before {
+    content: '2';
+    color: #fff;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding-top: 8px;
+    background: transparent linear-gradient(247deg, #66C4D5 0%, #6888E7 100%) 0% 0% no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 80%;
+}
+
+.circle-3::before {
+    content: '3';
+    color: #fff;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding-top: 8px;
+    background: transparent linear-gradient(247deg, #66C4D5 0%, #6888E7 100%) 0% 0% no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 80%;
+}
+
+.step {
+    margin: 0 auto;
+}
+
+.step div h3 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #68C1E7;
+    letter-spacing: 3.3px;
+}
+
+.step div p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #C3C3C3;
+    text-align: center;
+    max-width: 268px;
+    margin-bottom: 200px;
+}
+
+@media(max-width:1000px) {
+    .step div p {
+        max-width: 100%;
+    }
+}
+
+
+/* Consulte */
+
+.bg-consulte {
+    max-width: 100%;
+    height: 615px;
+    margin: 0;
+    background: transparent linear-gradient(247deg, #66C4D5 0%, #6888E7 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img-consulte {
+    padding: 0;
+}
+
+.img-consulte img {
+    margin-left: 100px;
+}
+
+@media(max-width:1200px) {
+    .img-consulte img {
+        display: none;
+    }
+}
+
+.consulte div h1 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 7.2px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.consulte div h2 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+
+.btn-consulte {
+    max-width: 418px;
+    height: 46px;
+    display: inline-block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    transition: 1.0s;
+}
+
+.btn-consulte:hover {
+    background: rgb(236, 236, 236) 0% 0% no-repeat padding-box;
+    text-decoration: none;
+}
+
+div .btn-consulte span {
+    font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 800;
+    letter-spacing: 2.1px;
+    color: #4AAE20;
+    text-transform: uppercase;
+}
+
+.btn-consulte img {
+    display: inline-block;
+    text-align: left;
+}
+
+@media(max-width:600px) {
+    .consulte div h1 {
+        font-size: 36px;
+        margin-top: 100px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .consulte div h2 {
+        font-size: 16px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .btn-consulte {
+        margin: 100px auto;
+    }
+    .btn-consulte img {
+        display: none;
+    }
+}
+
+
+/* About Corona */
+
+.corona h1 {
+    font-size: 36px;
+    color: #636363;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 90px;
+    letter-spacing: 5.4px;
+}
+
+.corona h1 span {
+    /* color: transparent linear-gradient() 0% 0% no-repeat; */
+    background: -webkit-linear-gradient(247deg, #66C4D5 0%, #6888E7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-corona ul li h3 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 3.3px;
+    color: #68C1E7;
+}
+
+.about-corona ul li h3 {
+    padding-bottom: 40px;
+}
+
+.about-corona ul li h4 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 3.3px;
+    color: #636363;
+    text-transform: uppercase;
+}
+
+.about-corona ul li p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    color: #636363;
+}
+
+.about-corona {
+    max-width: 568px;
+    margin: 0 auto;
+}
+
+.corona-info ul li:first-child {
+    padding-top: 30px;
+}
+
+.corona-info ul li:last-child {
+    padding-bottom: 30px;
+}
+
+.corona-info ul li p {
+    padding: 0;
+    margin: 0;
 }
 
 .extra {
