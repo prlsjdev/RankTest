@@ -1,4 +1,10 @@
-/* Estilos gerais */
+/* -----------------------------------*/
+
+
+/* ---------->>> ESTILOS GERAIS<<<-----------*/
+
+
+/* -----------------------------------*/
 
 html {
     /* porque ta criando barra horizontal? */
@@ -20,7 +26,13 @@ ul {
 }
 
 
-/* Introdução - backgrounds*/
+/* -----------------------------------*/
+
+
+/* ---------->>> INTRODUÇÃO BACKGROUND <<<-----------*/
+
+
+/* -----------------------------------*/
 
 .bg-intro-1 {
     background: transparent linear-gradient(245deg, #68C1E7 0%, #687DE7 100%) 0% 0% no-repeat padding-box;
@@ -38,15 +50,14 @@ ul {
     background: #DDE5F4;
 }
 
-.bg-info {
-    width: 584px;
-    height: 1290px;
-    background: transparent linear-gradient(204deg, #9C6756 0%, #687DE7 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+
+/* -----------------------------------*/
 
 
-/* Introdução Topo */
+/* ---------->>> INTRODUÇÃO TOPO <<<-----------*/
+
+
+/* -----------------------------------*/
 
 .top {
     padding-top: 60px;
@@ -128,7 +139,13 @@ div .top-btn span {
 }
 
 
-/* Introdução - Box */
+/* -----------------------------------*/
+
+
+/* ---------->>> Introdução - BOX <<<-----------*/
+
+
+/* -----------------------------------*/
 
 .box {
     margin-top: 34px;
@@ -244,7 +261,13 @@ div .top-btn span {
 }
 
 
-/* Agendamento  */
+/* -----------------------------------*/
+
+
+/* ---------->>> Agendamento <<<-----------*/
+
+
+/* -----------------------------------*/
 
 .agendamento p {
     font-family: 'Ruda', sans-serif;
@@ -363,7 +386,13 @@ div .top-btn span {
 }
 
 
-/* Consulte */
+/* -----------------------------------*/
+
+
+/* ---------->>> CONSULTE <<<-----------*/
+
+
+/* -----------------------------------*/
 
 .bg-consulte {
     max-width: 100%;
@@ -459,7 +488,13 @@ div .btn-consulte span {
 }
 
 
-/* About Corona */
+/* -----------------------------------*/
+
+
+/* ---------->>> ABOUT CORONA <<<-----------*/
+
+
+/* -----------------------------------*/
 
 .corona h1 {
     font-size: 36px;
@@ -526,6 +561,168 @@ div .btn-consulte span {
     padding: 0;
     margin: 0;
 }
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> Sintomas <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.sintomas-header {
+    padding-top: 180px;
+}
+
+.sintomas h1 span {
+    /* color: transparent linear-gradient() 0% 0% no-repeat; */
+    background: -webkit-linear-gradient(247deg, #66C4D5 0%, #6888E7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5.4px;
+}
+
+.sintomas h1 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #636363;
+    text-align: left;
+    letter-spacing: 5.4px;
+}
+
+.sintomas h2 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 1.1px;
+    color: #315267;
+    text-transform: uppercase;
+    padding: 80px 0px 10px 0px;
+}
+
+.sintomas p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #315267;
+    text-align: left;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+.sintomas div img {
+    display: inline-block;
+    padding: 0px 10px 5px 20px;
+}
+
+.sintoma-box {
+    padding-left: 30px;
+}
+
+.sintoma-box span {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 2.7px;
+}
+
+.sintoma-box p {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.last-text {
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+}
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> Duvidas <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.info-box {
+    width: 584px;
+    min-height: 1290px;
+    background: transparent linear-gradient(204deg, #9C6756 0%, #687DE7 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.info-box p span {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2.7px;
+    display: block;
+    max-width: 333px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 60px;
+    color: #fff;
+}
+
+.info-box p a {
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+    margin-top: 95px;
+    max-width: 10%;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn:after {
+    font-family: FontAwesome;
+    content: "\f067";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+}
+
+.btn:hover:after {
+    font-family: FontAwesome;
+    content: "\f068";
+}
+
+.card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #00000029;
+    border-radius: 40px;
+    opacity: 0.2;
+}
+
+
+/* .card-body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+    opacity: 1;
+} */
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> NOT YET <<<-----------*/
+
+
+/* -----------------------------------*/
 
 .extra {
     width: 368px;
