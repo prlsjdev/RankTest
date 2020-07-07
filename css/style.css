@@ -6,10 +6,11 @@
 
 /* -----------------------------------*/
 
-html {
-    /* porque ta criando barra horizontal? */
+
+/* html {
+    porque ta criando barra horizontal? 
     overflow-x: hidden;
-}
+} */
 
 img {
     display: block;
@@ -219,6 +220,19 @@ div .top-btn span {
 
 .box:hover .box-header {
     background: rgba(54, 71, 156, 1) 0% 0% no-repeat padding-box;
+}
+
+.box-content li p:nth-child(2)::after {
+    content: '';
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 30px;
+    height: 1px;
+    margin: 0 auto;
+    background: #201f1f2a;
+    position: relative;
+    top: 15px;
 }
 
 .box-content li p:nth-child(1) {
@@ -842,6 +856,31 @@ div .btn-consulte span {
     padding-top: 90px;
 }
 
+.footer div p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.title-footer {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #68C1E7;
+}
+
 .logo img {
-    margin: 0;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+.logo div p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 90px 0;
+}
+
+.logo div p::before {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 90px 0;
 }
