@@ -72,7 +72,7 @@ ul {
     color: #fff;
 }
 
-.top div h2 {
+.top div:first-child p {
     font-family: 'Roboto Slab', serif;
     font-size: 22px;
     font-weight: 300;
@@ -87,7 +87,7 @@ ul {
     padding-bottom: 10px;
 }
 
-.top div span {
+.top div p span {
     font-family: 'Roboto Slab', serif;
     display: inline;
     font-size: 10px;
@@ -96,7 +96,43 @@ ul {
     margin-left: 20px;
 }
 
-.top-btn {
+.btn-primary {
+    width: 358px;
+    height: 46px;
+    display: inline-block;
+    background: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 1.0s;
+}
+
+.btn-primary span {
+    font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    margin-left: 10px;
+    color: #4AAE20;
+    text-transform: uppercase;
+}
+
+.btn-primary img {
+    display: inline-block;
+    text-align: left;
+}
+
+.btn-primary:hover {
+    background: rgb(214, 212, 212);
+    background-color: rgb(214, 212, 212);
+    border-color: rgb(214, 212, 212);
+    text-decoration: none;
+}
+
+
+/* .top-btn {
     width: 358px;
     height: 46px;
     display: inline-block;
@@ -105,12 +141,7 @@ ul {
     padding: 10px;
     text-align: center;
     transition: 1.0s;
-}
-
-.top-btn:hover {
-    background: rgb(236, 236, 236) 0% 0% no-repeat padding-box;
-    text-decoration: none;
-}
+} */
 
 div .top-btn span {
     font-family: 'Ruda', sans-serif;
