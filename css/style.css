@@ -45,7 +45,7 @@ button {
 
 /* -----------------------------------*/
 
-.bg-intro-1 {
+.bg-intro-grad {
     background: transparent linear-gradient(245deg, #68C1E7 0%, #687DE7 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -54,10 +54,9 @@ button {
     background: transparent url("../img/bg-corona.png") 0% 0% no-repeat;
     background-position: center;
     background-size: cover;
-    /* mix-blend-mode: hard-light; */
 }
 
-.bg-principal {
+.container-principal {
     background: #DDE5F4;
 }
 
@@ -177,6 +176,7 @@ button {
     margin-top: 34px;
     margin-bottom: 125px;
     position: relative;
+    text-align: center;
 }
 
 .box span {
@@ -231,7 +231,7 @@ button {
 }
 
 .box-content {
-    height: 480px;
+    min-height: 480px;
     background: rgba(54, 71, 156, 0.3) 0% 0% no-repeat padding-box;
     padding: 20px 25px;
     box-shadow: 0px 10px 20px #00000029;
@@ -251,7 +251,7 @@ button {
     content: '';
     display: block;
     text-align: center;
-    width: 300px;
+    max-width: 300px;
     margin-bottom: 30px;
     height: 1px;
     margin: 0 auto;
@@ -408,7 +408,6 @@ button {
     font-size: 16px;
     color: #C3C3C3;
     text-align: center;
-    max-width: 268px;
     margin-bottom: 200px;
 }
 
@@ -428,7 +427,7 @@ button {
 
 /* -----------------------------------*/
 
-.bg-consulte {
+.container-consulte {
     max-width: 100%;
     height: 615px;
     margin: 0;
@@ -464,7 +463,6 @@ button {
 }
 
 .consulte .btn-primary {
-    max-width: 485px;
     margin-left: 100px;
 }
 
@@ -488,7 +486,6 @@ button {
         text-align: center;
     }
     .consulte .btn-primary {
-        /* max-width: 320px; */
         display: block;
         margin: 0 auto;
     }
@@ -560,7 +557,7 @@ button {
     padding-bottom: 0px;
 }
 
-.corona-h3-dif {
+.corona-h-dif {
     font-family: 'Ruda', sans-serif !important;
     font-weight: 800 !important;
     text-align: left !important;
@@ -578,11 +575,6 @@ button {
     margin-top: 10px;
     padding-bottom: 90px;
     color: #636363;
-}
-
-.about-corona {
-    max-width: 568px;
-    margin: 0 auto;
 }
 
 .corona-info ul li:first-child {
@@ -605,7 +597,7 @@ button {
     .about-corona ul li p {
         text-align: center;
     }
-    .corona-h3-dif {
+    .corona-h-dif {
         text-align: center !important;
     }
 }
@@ -686,6 +678,12 @@ button {
     margin-bottom: 60px;
 }
 
+.last-text {
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+}
+
 @media(max-width:1100px) {
     .sintoma-box span {
         font-size: 18px;
@@ -694,7 +692,8 @@ button {
         margin: 0 auto;
     }
     .sintoma-box img {
-        display: none !important;
+        display: block !important;
+        margin: 10px auto !important;
     }
     .sintomas h2 {
         text-align: center;
@@ -703,6 +702,12 @@ button {
         margin-top: 10px;
         margin-bottom: 40px;
     }
+    .sintomas p {
+        padding-left: 0 !important;
+    }
+    .last-text {
+        position: static;
+    }
     .spn-ex {
         display: none !important;
     }
@@ -710,12 +715,6 @@ button {
     .sintomas p {
         text-align: center;
     }
-}
-
-.last-text {
-    position: relative;
-    bottom: 80px;
-    left: 20px;
 }
 
 
@@ -749,37 +748,25 @@ button {
     color: #fff;
 }
 
+.card-header h2 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2.7px;
+    display: block;
+    text-align: left;
+    color: #fff;
+}
+
 .btn {
     color: #fff;
-    font-weight: bold;
-    height: 30px;
-    margin-top: 95px;
-    max-width: 6%;
-}
-
-@media (max-width:1100px) and (min-width:992px) {
-    .btn {
-        margin-top: 10px;
-        margin-left: 50%;
-    }
-}
-
-@media(max-width:525px) {
-    .btn {
-        margin-top: 10px;
-        margin-left: 50%;
-    }
+    float: right;
 }
 
 @media(max-width:430px) {
     .info-box {
         display: none;
     }
-}
-
-.btn.focus,
-.btn:focus {
-    box-shadow: none;
 }
 
 .btn:hover {
@@ -800,11 +787,13 @@ button {
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.2) 0% 0% no-repeat padding-box;
     box-shadow: 0px 10px 20px #00000029;
-    border-radius: 40px;
-    max-width: 468px;
-    margin-left: 80px;
+    border: none;
+    background: none;
+}
+
+.card-header {
+    border-bottom: none;
 }
 
 .card p {
@@ -816,7 +805,11 @@ button {
     font-size: 14px;
     text-align: left;
     color: #fff;
-    opacity: 1;
+    background: rgba(255, 255, 255, 0.2) 0% 0% no-repeat padding-box;
+}
+
+.collapse {
+    border-radius: 40px;
 }
 
 
@@ -919,62 +912,51 @@ button {
 
 /* -----------------------------------*/
 
-.footer {
+.info-footer {
     padding-top: 90px;
 }
 
-.footer div p {
+.info-footer div p {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    color: #636363;
 }
 
-.title-footer {
+.text-footer h2 {
     font-family: 'Ruda', sans-serif;
     font-weight: 800;
     font-size: 14px;
     color: #68C1E7;
 }
 
-.logo img {
+.text-footer p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #315267;
+}
+
+.copy {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #636363;
+}
+
+.copy img {
     margin-left: 50px;
     padding-bottom: 30px;
 }
 
-.logo div p {
+.copy p {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     margin: 90px 0;
 }
 
-.logo div p::before {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    padding: 90px 0;
-}
-
 @media (max-width:990px) {
-    .footer {
+    .info-footer {
         text-align: center;
     }
-    .footer img {
+    .info-footer img {
         margin: 0 auto;
     }
 }
-
-
-/* 
-@media(max-width:992px) {
-    h1,
-    h2,
-    h3,
-    p,
-    a,
-    ul,
-    li,
-    img {
-        text-align: center;
-    }
-    body {
-        margin: 0 auto;
-    }
-} */
