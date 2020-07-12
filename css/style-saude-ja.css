@@ -1,0 +1,940 @@
+/* -----------------------------------*/
+
+
+/* ---------->>> ESTILOS GERAIS<<<-----------*/
+
+
+/* -----------------------------------*/
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+}
+
+a {
+    outline: none !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.btn {
+    text-decoration: none !important;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.btn-primary {
+    background: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 20px;
+    padding: 15px 60px;
+    text-align: center;
+    transition: 1.0s;
+}
+
+.container-principal {
+    background: #DDE5F4;
+}
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> CONTAINER DESTAQUE <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.container-destaque {
+    background: transparent url("../img/bg-destaque-corona-virus.png") 0% 0% no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.infos {
+    padding-top: 60px
+}
+
+.titulo h1 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 5.4px;
+    color: #fff;
+}
+
+.titulo p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.agende-agora {
+    text-align: right;
+}
+
+.agende-agora p {
+    font-family: 'Ruda', sans-serif;
+    color: #fff;
+}
+
+.agende-agora p span {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 10px;
+}
+
+.agende-agora .btn-primary {
+    background: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 20px;
+    padding: 15px 60px;
+    text-align: center;
+    transition: 1.0s;
+}
+
+.agende-agora .btn-primary span {
+    font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    margin-left: 10px;
+    color: #4AAE20;
+    text-transform: uppercase;
+}
+
+.agende-agora .btn-primary:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.agende-agora a {
+    color: #fff;
+    margin-right: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    font-weight: 800;
+    transition: 1.0s;
+}
+
+.agende-agora a:hover {
+    text-decoration: none;
+}
+
+@media(max-width:600px) {
+    .agende-agora .btn-primary {
+        background: #fff;
+        background-color: #fff;
+        border-color: #fff;
+        border-radius: 20px;
+        padding: 10px 30px;
+        margin-top: 10px;
+        text-align: center;
+        transition: 1.0s;
+    }
+    .agende-agora .btn-primary span {
+        display: none;
+    }
+}
+
+@media(max-width:990px) {
+    .agende-agora .btn-primary {
+        display: block;
+        margin: 0 auto;
+    }
+    .titulo,
+    .agende-agora {
+        text-align: center;
+    }
+    .fa {
+        display: block !important;
+    }
+}
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> Introdução - BOX <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.box {
+    margin-top: 34px;
+    margin-bottom: 125px;
+    position: relative;
+    text-align: center;
+}
+
+.box span {
+    min-width: 140px;
+    border-radius: 20px;
+    background: #68C1E7;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    opacity: 1;
+    font-family: 'Ruda', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 0px;
+    z-index: 1;
+}
+
+.box-header {
+    min-height: 125px;
+    border-radius: 10px 10px 0px 0px;
+    background: rgba(54, 71, 156, 0.8);
+    transition: background 1.0s;
+}
+
+.box-header h2 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 20px;
+    letter-spacing: -0.9px;
+    color: #fff;
+}
+
+.box-header p:nth-child(2) {
+    font-family: 'Ruda', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: -10px;
+    letter-spacing: -1.92px;
+    color: #fff;
+}
+
+.box-header p:nth-child(3) {
+    font-family: 'Ruda', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -0.72px;
+}
+
+.box-content {
+    min-height: 480px;
+    background: rgba(54, 71, 156, 0.3) 0% 0% no-repeat padding-box;
+    padding: 20px 25px;
+    box-shadow: 0px 10px 20px #00000029;
+    border-radius: 0px 0px 10px 10px;
+    transition: background 1.0s;
+}
+
+.box:hover .box-content {
+    background: rgba(54, 71, 156, 0.7) 0% 0% no-repeat padding-box;
+}
+
+.box:hover .box-header {
+    background: rgba(54, 71, 156, 1) 0% 0% no-repeat padding-box;
+}
+
+.box-content li p:nth-child(2)::after {
+    content: '';
+    display: block;
+    text-align: center;
+    max-width: 300px;
+    margin-bottom: 30px;
+    height: 1px;
+    margin: 0 auto;
+    background: #201f1f2a;
+    position: relative;
+    top: 15px;
+}
+
+.box-content li h3 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.box-content li p:nth-child(2) {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 0;
+}
+
+.box .btn-primary {
+    background: #DDE5F4 0% 0% no-repeat padding-box;
+    max-height: 46px;
+    min-width: 220px;
+    color: #36479C;
+    border-radius: 20px;
+    padding: 15px 50px;
+    font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.box .btn-primary {
+    text-decoration: none;
+}
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> CONTAINER AGENDAMENTO <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.titulo-agendamento {
+    text-align: center;
+}
+
+.titulo-agendamento p:first-child {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 50px;
+    color: #68C1E7;
+    text-transform: uppercase;
+}
+
+.titulo-agendamento h2 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 5.4px;
+    color: #315267;
+    text-transform: uppercase;
+}
+
+.titulo-agendamento p:last-child {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #315267;
+}
+
+.circle-1,
+.circle-2,
+.circle-3 {
+    width: 180px;
+    height: 180px;
+    background: #fff;
+    border-radius: 200px;
+    margin: 0 auto;
+}
+
+.circle-1::before {
+    content: '1';
+    color: #fff;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding-top: 8px;
+    background: transparent linear-gradient(247deg, #66C4D5 0%, #6888E7 100%) 0% 0% no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 80%;
+}
+
+.circle-2::before {
+    content: '2';
+    color: #fff;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding-top: 8px;
+    background: transparent linear-gradient(247deg, #66C4D5 0%, #6888E7 100%) 0% 0% no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 80%;
+}
+
+.circle-3::before {
+    content: '3';
+    color: #fff;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding-top: 8px;
+    background: transparent linear-gradient(247deg, #66C4D5 0%, #6888E7 100%) 0% 0% no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 80%;
+}
+
+.forma-de-agendamento {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.forma-de-agendamento h3 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #68C1E7;
+    letter-spacing: 3.3px;
+}
+
+.forma-de-agendamento p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #C3C3C3;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+@media(max-width:990px) {
+    .forma-de-agendamento p {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> CONTAINER-CONSULTA <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.container-consulta {
+    max-width: 100%;
+    height: 615px;
+    margin: 0;
+    background: transparent linear-gradient(247deg, #66C4D5 0%, #6888E7 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.container-consulta h2 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 7.2px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.container-consulta p {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.container-consulta .btn-primary {
+    margin-left: 100px;
+}
+
+.container .btn-primary span {
+    font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 800;
+    letter-spacing: 2.1px;
+    color: #4AAE20;
+    text-transform: uppercase;
+}
+
+@media(max-width:1200px) {
+    .container-consulta div img {
+        display: none;
+    }
+    .container-consulta .btn-primary {
+        display: block;
+        margin: 0 auto;
+    }
+    .container-consulta h2,
+    .container-consulta p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .consulte .btn-primary {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:600px) {
+    .container-consulta h2 {
+        font-size: 32px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .container-consulta p {
+        font-size: 16px;
+    }
+    .container-consulta .btn-primary {
+        max-width: 320px;
+        display: block;
+        margin: 0 auto;
+    }
+    .container-consulta .btn-primary span {
+        display: none;
+    }
+    .fa-lg {
+        vertical-align: 50% !important;
+    }
+}
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> CONTAINER CORONA <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.container-sobre-o-corona {
+    margin-bottom: 180px;
+}
+
+.container-sobre-o-corona h2 {
+    font-size: 36px;
+    color: #636363;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 90px;
+    letter-spacing: 5.4px;
+}
+
+.container-sobre-o-corona h2 span {
+    background: -webkit-linear-gradient(247deg, #66C4D5 0%, #6888E7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-sobre-o-corona ul li h3 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 3.3px;
+    color: #68C1E7;
+}
+
+.titulo-secondary {
+    font-family: 'Ruda', sans-serif !important;
+    font-weight: 800 !important;
+    text-align: left !important;
+    font-size: 22px !important;
+    letter-spacing: 3.3px !important;
+    color: #636363 !important;
+    text-transform: uppercase !important;
+    margin-top: 30px;
+}
+
+.container-sobre-o-corona ul li p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #636363;
+}
+
+@media(max-width:990px) {
+    .container-sobre-o-corona ul li h3,
+    .container-sobre-o-corona ul li p {
+        text-align: center;
+    }
+    .titulo-secondary {
+        text-align: center !important;
+    }
+}
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> CONTAINER SINTOMAS <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.container-sintomas h2 span {
+    background: -webkit-linear-gradient(247deg, #66C4D5 0%, #6888E7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5.4px;
+}
+
+.container-sintomas h2 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #636363;
+    text-align: left;
+    letter-spacing: 5.4px;
+}
+
+.container-sintomas h3 {
+    font-family: 'Ruda', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 1.1px;
+    color: #315267;
+    text-transform: uppercase;
+    padding: 80px 0px 10px 0px;
+}
+
+.container-sintomas p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #315267;
+    text-align: left;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.principais-sintomas {
+    max-width: 568px;
+    margin: 0 auto;
+}
+
+.sintoma-box {
+    padding-left: 30px;
+}
+
+.sintoma-box span {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 2.7px;
+}
+
+.spn-ex {
+    font-size: 50px !important;
+}
+
+.sintoma-box p {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.last-text {
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+}
+
+@media(max-width:1200px) {
+    .sintoma-box span {
+        font-size: 18px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .sintoma-box img {
+        display: block !important;
+        margin: 10px auto !important;
+    }
+    .sintomas h2 {
+        text-align: center;
+    }
+    .sintoma-box p {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .sintomas p {
+        padding-left: 0 !important;
+    }
+    .last-text {
+        position: static;
+    }
+    .spn-ex {
+        display: none !important;
+    }
+    .sintomas h3,
+    .sintomas p {
+        text-align: center;
+    }
+}
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> Duvidas <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.sintomas-perguntas {
+    max-width: 568px;
+    margin: 0 auto;
+    min-height: 1290px;
+    background: transparent linear-gradient(204deg, #9C6756 0%, #687DE7 100%) 0% 0% no-repeat padding-box;
+    padding-bottom: 100px;
+    opacity: 1;
+}
+
+.accordion>.card:not(:last-of-type) {
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+
+.card-header h2 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2.7px;
+    display: block;
+    padding-right: 30px;
+    text-align: left;
+    color: #fff;
+}
+
+.card-header button {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2.7px;
+    display: block;
+    padding-right: 30px;
+    text-align: left;
+    color: #fff;
+}
+
+.btn {
+    color: #fff;
+}
+
+@media(max-width:320px) {
+    .sintomas-perguntas {
+        display: none;
+    }
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.active {
+    background: rgba(255, 255, 255, 0.2) 0% 0% no-repeat padding-box;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+.btn-link {
+    display: flex;
+}
+
+.card {
+    box-shadow: 0px 10px 20px #00000029;
+    border: none;
+    border-radius: 20px;
+    background: none;
+    margin-top: 40px;
+    box-shadow: none;
+}
+
+.card-header {
+    border-radius: 20px;
+    border-bottom: none;
+    margin-bottom: 0px !important;
+    background: none;
+    width: 100%;
+    position: relative;
+}
+
+
+/* .card-header[aria-expanded='true'] {
+    background-color: rgba(255, 255, 255, 0.2);
+} */
+
+.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.collapsible-link::before {
+    content: '\f067';
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '\f068';
+}
+
+.card p {
+    color: #fff;
+}
+
+.card-body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2) 0% 0% no-repeat padding-box;
+}
+
+.collapse {
+    border-radius: 40px;
+}
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> FEEDBACK <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.container-midia {
+    margin-top: 180px;
+}
+
+.container-midia div h2 {
+    font-family: 'Ruda', sans-serif;
+    text-align: left;
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: 5.4px;
+    color: #68C1E7;
+}
+
+.container-midia div .img-fluid {
+    margin: 10px auto;
+}
+
+.cartao-saude-master h2 {
+    font-family: 'Ruda', sans-serif !important;
+    text-align: center !important;
+    color: #636363 !important;
+}
+
+.container-midia div p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    text-align: center;
+    color: #636363;
+}
+
+.extra {
+    max-width: 368px;
+    height: 167px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0 auto;
+}
+
+
+/* -----------------------------------*/
+
+
+/* ---------->>> CONTAINER - FOOTER <<<-----------*/
+
+
+/* -----------------------------------*/
+
+.info-footer {
+    padding-top: 90px;
+}
+
+.info-footer div p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #636363;
+}
+
+.lista-footer li h2 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #68C1E7;
+}
+
+.text-footer p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #315267;
+}
+
+.copy {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #636363;
+}
+
+.copy img {
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+.copy p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 90px 0;
+}
+
+@media (max-width:990px) {
+    .info-footer {
+        text-align: center;
+    }
+    .info-footer img {
+        margin: 0 auto;
+    }
+}
